@@ -1,0 +1,18 @@
+name: apptest
+description: A simple command-line application.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.16.0 <3.0.0'
+
+
+# dependencies:
+#   path: ^1.8.0
+
+dev_dependencies:
+  lints: ^1.0.0
+dependencies: 
+  dart_hydrologis_utils: ^0.6.0+1
+  dart_jts: ^0.2.1
+  dart_shp: ^0.4.0
