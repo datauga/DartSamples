@@ -15,7 +15,7 @@ void main() async {
     var fAttributes = feature.attributes;
     var fCoord = feature.geometry!.getCoordinate();
 
-    var latitude = fCoord?.x;
+    var latitude = fCoord?.y;
     var longitude = fCoord?.x;
 
     print(
